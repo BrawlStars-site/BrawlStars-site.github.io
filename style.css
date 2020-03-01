@@ -529,6 +529,26 @@ a{
 .big img{
 	height: 200%;
 }
-@media(max-width: 1120px){
-
+@media(max-width: 1040px){
+	#box1-title{
+		left: 50%;
+		width: 90%;
+	}
+	#box2-title{
+		left: 50%;
+	}
+	#box2-title img{
+		display: none;
+	}
+}
+@media(max-width: 910px){
+	#ad-box-text{
+		width: 55%;
+		left: 29%;
+	}
+}
+@media(max-width: 800px){
+	#box6-more{
+		width: 100%;
+	}
 }
