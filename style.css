@@ -216,7 +216,6 @@ body{
 }
 #box4-title{
 	position: absolute;
-	max-width: 50%;
 	min-width: 25%;
 	color: #040;
 	font-size: 30px;
@@ -546,9 +545,22 @@ a{
 		width: 55%;
 		left: 29%;
 	}
+	#box4-title{
+		display: none;
+	}
 }
 @media(max-width: 800px){
 	#box6-more{
 		width: 100%;
+	}
+	#tml-btn1{
+		display: none;
+	}
+}
+@media(max-width: 1068){
+	#box4-title{
+		width: 50%;
+		left: 27%;
+		transform: translate(-50%, -50%);
 	}
 }
