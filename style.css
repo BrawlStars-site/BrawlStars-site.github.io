@@ -262,14 +262,9 @@ body{
 }
 #box5{
 	background-color: #111;
-	height: 1120px;
-}
-#box5-cards{
-	top: 50%;
-	left: 50%;
-	position: absolute;
-	transform: translate(-50%,-50%);
-	width: 1120px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
 }
 .box5-card{
 	background: linear-gradient(to bottom, #111, #321);
@@ -533,4 +528,7 @@ a{
 }
 .big img{
 	height: 200%;
+}
+@media(max-width: 1120px){
+
 }
